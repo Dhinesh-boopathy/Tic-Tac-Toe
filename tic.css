@@ -1,0 +1,66 @@
+.board{
+    width: 280px;
+    min-height: 450px;
+    border-radius: 10%;
+    padding: 0 20px 20px 20px;
+    text-align: center;
+    background-color: rgb(124, 117, 117);
+    color: white;
+    
+}
+h1{
+    padding-top: 12px;
+}
+
+h2{
+    margin: 8px;
+    color: orange;
+}
+
+table{
+    margin: auto;
+    border-spacing: 8px;
+}
+
+button{
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #6e072d;
+    border-color: #6e6e6e;
+    color: white;
+}
+
+button:hover{
+    background-color: #8f3353;
+}
+
+.game-square{
+    font-weight: 50px;
+    width: 70px;
+    height: 70px;
+    vertical-align: top;
+    font-size: xx-large;
+}
+
+.game-square:disabled{
+    cursor: default;
+}
+
+#restart-button{
+    display: none;
+    font-size: 24px;
+    padding: 12px;
+    margin: 12px auto;
+}
+#result{
+    margin-top: -300px;
+    margin-left: 100px;
+}
+#table{
+    width: 200px;
+}
+#td1,#td2,#td3,#td4,#td5{
+    width: 20px;
+}
+
